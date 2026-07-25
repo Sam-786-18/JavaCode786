@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  * Output:a
 */
 
-public class FirstRepeated {
+public class FirstRepeatedChar {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
