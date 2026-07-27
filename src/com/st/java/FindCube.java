@@ -6,7 +6,7 @@ package com.st.java;
 import java.util.Arrays;
 import java.util.List;
 
-public class FindCure {
+public class FindCube {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
