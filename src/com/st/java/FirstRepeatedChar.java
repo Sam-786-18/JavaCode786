@@ -19,11 +19,11 @@ public class FirstRepeatedChar {
 				.collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting()))
 				.entrySet().stream().filter(entry -> entry.getValue() > 1L).map(entry -> entry.getKey()).findFirst()
 				.get();
-		System.out.println(result);
+		//System.out.println(result);
 		/* or */
 		Set<Character> set=new HashSet<>();
 		Character ch=str.chars().mapToObj(s->(char)s).filter(c->!set.add(c)).findFirst().orElse(null);
-		//System.out.println(ch);
+		System.out.println(ch);
 	}
 
 }
